@@ -6,12 +6,9 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-  end
-  def brand
+    if BRANDS.includes?(@brands)
     BRANDS << @brand
   end
-  
-  what ** IF ** we could check if BRANDS ** includes?() ** the value in our instance variable @brands?
   
   def cobble
     self.condition = "new"
