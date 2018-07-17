@@ -11,6 +11,8 @@ class Shoe
     BRANDS << @brand
   end
   
+  what ** IF ** we could check if BRANDS ** includes?() ** the value in our instance variable @brands?
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
